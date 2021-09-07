@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Wurld</title>
+<style>
+  body {background: green;}
+    h1 {color: red; text-align: center;}
+    p {font-family: verdana; font-size: 14px; text-align: center;}
+    h2 {color: blue; text-align: center; text-decoration: line-through;}
+    h3 {color: yellow; text-align: center;}
+    h4 {color: purple; text-align: center;}
+    #p2 {font-family: verdana; font- size: 14px; text-align: left;}
+    #boxboy {
+      width: 100px;
+      height: 100px;
+      background: red;
+      position: relative;
+      animation: mymove 8s infinite;}
+      @keyframes mymove {
+      from {left: -150px;}
+      to {left: 900px}
+      }
+    #boxboy2 {
+      width: 100px;
+      height: 100px;
+      background: blue;
+      position: relative;
+      animation: yourmove 8s infinite;}
+      @keyframes yourmove {
+      from {right: -900px;}
+      to {right: 150px}
+      }
+    #example1 {
+        border: 10px dotted black;
+        padding: 15px;
+        background: gold;
+        background-clip: border-box;
+      }
+    #example2 {
+        border: 10px dotted black;
+        padding: 15px;
+        background: gold;
+        background-clip: padding-box;
+      }
+    #example3 {
+        border: 10px dotted black;
+        padding: 15px;
+        background: gold;
+        background-clip: content-box;
+      }
+      .paragraph {column-count: 3}
+</style>
+</head>
+<body>
+  <h1>CSS TESTING</h1>
+    <a href="..\index.html">Home<img width="265" src="..\img\shuba-duck.gif" alt="Shuba the duck dancing"></a>
+    <a href="..\new_wrld\new_space.html"><img width="150" src="..\img\kirby-music.gif" alt="Kirby dancing">Test Space</a>
+    <p> Hello World, This is CSS </p>
+    <p> Hello CSS, This is World </p>
+  <h2> TEST </h2>
+  <h3> TEST </h3>
+  <h4> TEST </h4>
+  <div id="boxboy"><h2>Hello</h2></div>
+  <div id="boxboy2"></div>
+  <br>
+  <div id="example1">
+    <p>THIS IS A BORDER BOX</p>
+  </div>
+  <br>
+  <div id="example2">
+    <p>THIS IS A PADDING BOX</p>
+  </div>
+  <br>
+  <div id="example3">
+    <p>THIS IS A CONTENT BOX</p>
+  </div>
+<hr>
+<h1>PARAGRAPHS TEST</h1>
+<div class= "paragraph">
+  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+</div>
+<br>
+<div id="p2">
+  <b><.style> <br>
+    ."[paragraph name]" {column-count:#} <br>
+  <./style> <br>
+  <.body> <br>
+    <.div class="[paragraph name]"> <br>
+      "[paragraph paragraph paragraph paragraph ]" <br>
+    <./div> <br>
+  <./body> <br><b>
+</div>
+<hr>
+</body>
+</html>

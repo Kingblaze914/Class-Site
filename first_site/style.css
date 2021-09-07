@@ -1,0 +1,31 @@
+body {
+  background-image: url("img/uimpbac6x5871.gif");
+  background-color: grey
+}
+h1 {
+  text-align: center;
+}
+p {
+  color: red;
+  font-size: 40px;
+}
+h1 {
+  color: rgb(120, 40, 120);
+}
+a {
+  color: red;
+}
+img {pmax-width: 100%;}
+.common {
+  color: #fff;
+  background: #000;
+  border: 5px dashed red;
+  border-radius: 0%;
+  padding: 10px;
+  margin: 20px;
+}
+.spatter {
+  width: 1400px;
+  display: block;
+  margin: 0 auto;
+}
