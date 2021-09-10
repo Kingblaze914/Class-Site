@@ -11,13 +11,23 @@ p {
   font-size: 36px;
   color: green;
   font-weight: bold;
-  text-decoration: underline;
-  font-style: italic;
+  text-decoration: none;
+  font-sty.le: italic;
   text-align: justify;
   font-family: 'Press Start 2P', fantasy;
+  text-shad.ow: 5px 5px 5px red;
+  box-shad.ow: 5px 5px 5px grey;
 }
+
+.rotate {
+  transform:translateY(10px);
+  color: orange;
+  display: inline-block;
+}
+
 h1{
   font-size: 100px;
   font-weight: lighter;
-  font-family: retro
+  font-family: retro;
+  color: red
 }

@@ -1,26 +1,11 @@
 body {
-  background-image: url("img/space.gif");
+  background-color: black;
 }
-
 h1 {
-  text-align: center;
-  color: yellow;
-  font-size: 70px;
+  color: red;
 }
 
-h2 {
-  text-align: center;
-  font-size: 40px;
-}
-
-ul.a {
-  list-style-image: url("img/red_ghost.gif");
-  align-items: center;
-}
-.common {
-  background: rgba(0, 0, 0, 0.5);
-  border: 6px dotted yellow;
-  border-radius: 0%;
-  padding: 10px;
-  margin: 20px;
+img {
+  /* background-color: black; */
+  width: 750px;
 }
