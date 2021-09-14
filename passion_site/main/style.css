@@ -31,9 +31,9 @@ h2 {
 }
 
 p {
-  text-align: cente.r;
-  background: rgba(0, 0, 0, 0.5);
-  color: yellow;
+  text-align: center;
+  background: rgba(0, 0, 0, 2);
+  color: Red;
   font-family: 'Press Start 2P', fantasy;
 }
 
