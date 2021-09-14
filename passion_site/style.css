@@ -11,17 +11,17 @@ body {
 
 p {
   font-size: 20px;
-  text-align: center;
-  background: rgba(0, 0, 0, .75);
-  color: Red;
+    color: Red;
   font-family: 'Press Start 2P', fantasy;
 }
 a {
   text-decoration: none;
+  color: white;
   transition-property: color;
 }
+
 a:hover {
-  color: white;
+  color: red;
 }
 
 .arcade {
