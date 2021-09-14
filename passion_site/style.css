@@ -16,7 +16,7 @@ a {
   text-decoration: none;
   transition-property: color
 }
-a.hover {
+a:hover {
   color: white;
 }
 
