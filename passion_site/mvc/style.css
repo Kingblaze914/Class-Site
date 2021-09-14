@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  margin: 8px;
+  border: 4px;
+  background-image: url("../img/arcade_carpet_pattern_by_glimmeringclaymore_denmtxa-pre.png");
+  background-color: black;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: yellow;
+  font-size: 40px;
+  font-family: 'Press Start 2P', fantasy;
+}
+a {
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  text-decoration: none;
+  color: yellow;
+  transition-property: color;
+  font-family: 'Press Start 2P';
+}
+
+a:hover {
+  color: Red;
+}
+
+ul.a {
+  background-color: rgba(0, 0, 0, 10);
+  padding: 10px;
+  width: 850px;
+  font-size: 15px;
+  color: yellow;
+  font-family: 'Press Start 2P', fantasy;
+  list-style-type: none;
+}
+iframe {
+  border: none;
+}

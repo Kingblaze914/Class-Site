@@ -1,11 +1,22 @@
-body {
-  background-color: black;
+* {
+  box-sizing: border-box;
 }
+
+body {
+  display: block;
+  margin: 8px;
+  border: 4px;
+  background-image: url("img/arcade_carpet_pattern_by_glimmeringclaymore_denmtxa-pre.png");
+}
+
 h1 {
   color: red;
 }
 
-img {
-  /* background-color: black; */
-  width: 750px;
+.arcade {
+  position: absolute;
+  width: 45% ;
+  display: block;
+  border: 4px dashed white;
+  margin-left: 400px;
 }

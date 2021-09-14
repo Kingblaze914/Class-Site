@@ -1,11 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  display: block;
+  margin: 8px;
+  border: 4px;
   background-image: url("../img/arcade_carpet_pattern_by_glimmeringclaymore_denmtxa-pre.png");
   background-color: black;
 }
 
 @font-face {
   font-family: retro;
-  src:url("css2/fonts/deftone-webfont.woff");
+  src: url("css2/fonts/deftone-webfont.woff");
 }
 
 h1 {
@@ -17,12 +24,40 @@ h1 {
 
 h2 {
   text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
   font-size: 40px;
+  font-family: 'Press Start 2P'
+}
+
+p {
+  text-align: cente.r;
+  background: rgba(0, 0, 0, 0.5);
+  color: yellow;
+  font-family: 'Press Start 2P', fantasy;
 }
 
 img {
   background-color: black;
-  width: 365px;
+  width: 350px;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+  transition-property: color;
+}
+
+a:hover {
+  color: red;
+}
+
+ul.a {
+  color: yellow;
+  font-family: 'Press Start 2P';
+  font-size: 30px;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .common {
@@ -32,6 +67,7 @@ img {
   padding: 10px;
   margin: 20px;
 }
+
 .pacman {
   text-align: center;
 }
