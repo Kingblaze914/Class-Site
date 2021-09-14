@@ -9,12 +9,16 @@ body {
   background-image: url("img/arcade_carpet_pattern_by_glimmeringclaymore_denmtxa-pre.png");
 }
 
-a {
-  font-size: 20px
-  color: red;
+p {
+  font-size: 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, .75);
+  color: Red;
   font-family: 'Press Start 2P', fantasy;
+}
+a {
   text-decoration: none;
-  transition-property: color
+  transition-property: color;
 }
 a:hover {
   color: white;
