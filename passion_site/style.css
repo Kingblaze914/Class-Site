@@ -10,8 +10,14 @@ body {
 }
 
 a {
+  font-size: 20px
   color: red;
-  font-family: fantasy;
+  font-family: 'Press Start 2P', fantasy;
+  text-decoration: none;
+  transition-property: color
+}
+a.hover {
+  color: white;
 }
 
 .arcade {
