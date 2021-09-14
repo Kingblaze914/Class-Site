@@ -9,8 +9,9 @@ body {
   background-image: url("img/arcade_carpet_pattern_by_glimmeringclaymore_denmtxa-pre.png");
 }
 
-h1 {
+a {
   color: red;
+  font-family: fantasy;
 }
 
 .arcade {
