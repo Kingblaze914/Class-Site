@@ -65,7 +65,7 @@ p {
 }
 
 .beshoy {
-  background-color: purple;
+  background-color: Grey;
   height: 275px;
   width: 275px;
   top: 23%;
@@ -75,7 +75,7 @@ p {
 }
 
 .elijah {
-  background-color: green;
+  background-color: Grey;
   height: 275px;
   width: 275px;
   top: 23%;
@@ -107,7 +107,7 @@ p {
 }
 
 .prince {
-  background-color: purple;
+  background-color: Grey;
   height: 275px;
   width: 275px;
   top: 63%;
@@ -127,9 +127,9 @@ p {
 }
 @keyframes ian {
   0% {
-    background-color: green;
+    background-color: blue;
   }
   100% {
-    background-color: blue;
+    background-color: green;
     }
 }

@@ -55,7 +55,7 @@ p {
 }
 
 .haasita {
-  background-color: red;
+  background-color: grey;
   height: 275px;
   width: 275px;
   top: 23%;
@@ -107,14 +107,14 @@ p {
 }
 
 .nae {
-  background-color: black;
+  background-color: grey;
   height: 275px;
   width: 275px;
   top: 63%;
   left: 50%;
   position: fixed;
   text-align: center;
-  color: white;
+
 }
 
 @keyframes sonic
@@ -128,9 +128,9 @@ p {
 }
 @keyframes ian {
   0% {
-    background-color: green;
+    background-color: blue;
   }
   100% {
-    background-color: blue;
+    background-color: green;
     }
 }

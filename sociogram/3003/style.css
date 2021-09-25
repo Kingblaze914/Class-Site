@@ -55,7 +55,7 @@ p {
 }
 
 .devin {
-  background-color: red;
+  background-color: grey;
   height: 275px;
   width: 275px;
   top: 23%;
@@ -65,7 +65,7 @@ p {
 }
 
 .leoul {
-  background-color: purple;
+  background-color: grey;
   height: 275px;
   width: 275px;
   top: 23%;
@@ -75,7 +75,7 @@ p {
 }
 
 .noah {
-  background-color: green;
+  background-color: grey;
   height: 275px;
   width: 275px;
   top: 23%;
@@ -86,7 +86,7 @@ p {
 }
 
 .caleb {
-  background-color: blue;
+  background-color: grey;
   height: 275px;
   width: 275px;
   top: 63%;
@@ -96,14 +96,13 @@ p {
 }
 
 .andrew {
-  background-color: green;
+  background-color: grey;
   height: 275px;
   width: 275px;
   top: 63%;
   left: 10%;
   position: fixed;
   text-align: center;
-  animation: ian 4s infinite alternate ease;
 }
 
 .alex {
