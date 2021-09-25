@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/d5be4af56dbc9607b206f403cb832b0c.jpg);
+  display: block;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  background: green;
+  text-align: center;
+  font-family: 'Press Start 2P', fantasy;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Press Start 2P', fantasy;
+}
+p {
+  font-family: 'Press Start 2P', fantasy;
+}
+
+.container {
+  display: flex;
+}
+
+.sonic {
+  width: 200px;
+  height: 200px;
+  left: -20%;
+  position: fixed;
+  animation: sonic 4s infinite linear ;
+}
+
+.jaycen {
+  background-color: green;
+  height: 300px;
+  width: 300px;
+  top: 43%;
+  left: 65%;
+  position: fixed;
+  text-align: center;
+
+}
+
+.nathan {
+  background-color: blue;
+  height: 300px;
+  width: 300px;
+  top: 43%;
+  left: 37%;
+  position: fixed;
+  text-align: center;
+}
+
+.frank {
+  background-color: purple;
+  height: 300px;
+  width: 300px;
+  top: 43%;
+  left: 10%;
+  position: fixed;
+  text-align: center;
+}
+
+@keyframes sonic
+ {
+   0% {
+     left: -20%;
+   }
+   100% {
+     left: 100%;
+     }
+}

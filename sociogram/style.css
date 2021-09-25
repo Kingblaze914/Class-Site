@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/d5be4af56dbc9607b206f403cb832b0c.jpg);
+  display: block;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  background: green;
+  text-align: center;
+  font-family: 'Press Start 2P', fantasy;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container{
+display: flex;
+align-items: center;
+align-content: center;
+}
+
+.one {
+  background-image: url(img/GHZWAL06.png);
+  width: 200px;
+  height: 200px;
+  top: 10%;
+  left: 20%;
+  position: fixed;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Press Start 2P', fantasy;
+}
+
+.two {
+  background-image: url(img/GHZWAL06.png);
+  width: 200px;
+  height: 200px;
+  top: 10%;
+  left: 40%;
+  position: fixed;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Press Start 2P', fantasy;
+}
+
+.three {
+  background-image: url(img/GHZWAL06.png);
+  width: 200px;
+  height: 200px;
+  top: 10%;
+  left: 60%;
+  position: fixed;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Press Start 2P', fantasy;
+}
+
+.four {
+  background-image: url(img/GHZWAL06.png);
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 20%;
+  position: fixed;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Press Start 2P', fantasy;
+}
+
+.five {
+  background-image: url(img/GHZWAL06.png);
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 40%;
+  position: fixed;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Press Start 2P', fantasy;
+}
+
+.six {
+  background-image: url(img/GHZWAL06.png);
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 60%;
+  position: fixed;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Press Start 2P', fantasy;
+}

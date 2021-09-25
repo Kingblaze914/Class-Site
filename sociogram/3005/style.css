@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/d5be4af56dbc9607b206f403cb832b0c.jpg);
+  display:* {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url(../img/d5be4af56dbc9607b206f403cb832b0c.jpg);
+    display: block;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  h1 {
+    background: green;
+    text-align: center;
+    font-family: 'Press Start 2P', fantasy;
+  }
+
+  h2 {
+    text-align: center;
+    font-family: 'Press Start 2P', fantasy;
+  }
+  p {
+    font-family: 'Press Start 2P', fantasy;
+  }
+
+  .container {
+    display: flex;
+    /* height: 100vh */
+  }
+
+  .sonic {
+    width: 200px;
+    height: 200px;
+    left: -20%;
+    position: fixed;
+    animation: sonic 4s infinite linear ;
+  }
+
+  .arianna {
+    background-color: pink;
+    height: 275px;
+    width: 275px;
+    top: 43%;
+    left: 70%;
+    position: fixed;
+    text-align: center;
+
+  }
+
+  .xiomara {
+    background-color: black;
+    height: 275px;
+    width: 275px;
+    top: 23%;
+    left: 30%;
+    position: fixed;
+    text-align: center;
+    animation: ian 4s infinite alternate ease;
+    color: white;
+  }
+
+  .jessica {
+    background-color: red;
+    height: 275px;
+    width: 275px;
+    top: 23%;
+    left: 10%;
+    position: fixed;
+    text-align: center;
+  }
+
+  .deborah {
+    background-color: purple;
+    height: 275px;
+    width: 275px;
+    top: 23%;
+    left: 50%;
+    position: fixed;
+    text-align: center;
+
+  }
+
+  .jayla {
+    background-color: yellow;
+    height: 275px;
+    width: 275px;
+    top: 63%;
+    left: 30%;
+    position: fixed;
+    text-align: center;
+  }
+
+  .pooja {
+    background-color: green;
+    height: 275px;
+    width: 275px;
+    top: 63%;
+    left: 10%;
+    position: fixed;
+    text-align: center;
+
+  }
+
+  .kyndall {
+    background-color: blue;
+    height: 275px;
+    width: 275px;
+    top: 63%;
+    left: 50%;
+    position: fixed;
+    text-align: center;
+  }
+
+  @keyframes sonic
+   {
+     0% {
+       left: -20%;
+     }
+     100% {
+       left: 100%;
+       }
+  }
+  @keyframes ian {
+    0% {
+      background-color: black;
+    }
+    100% {
+      background-color: pink;
+      }
+  }
+ block;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  background: green;
+  text-align: center;
+  font-family: 'Press Start 2P', fantasy;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Press Start 2P', fantasy;
+}
+p {
+  font-family: 'Press Start 2P', fantasy;
+}
+
+.container {
+  display: flex;
+  /* height: 100vh */
+}
+
+.sonic {
+  width: 200px;
+  height: 200px;
+  left: -20%;
+  position: fixed;
+  animation: sonic 4s infinite linear ;
+}
+
+.arianna {
+  background-color: pink;
+  height: 275px;
+  width: 275px;
+  top: 43%;
+  left: 70%;
+  position: fixed;
+  text-align: center;
+
+}
+
+.xiomara {
+  background-color: black;
+  height: 275px;
+  width: 275px;
+  top: 23%;
+  left: 30%;
+  position: fixed;
+  text-align: center;
+  animation: ian 4s infinite alternate ease;
+  color: white;
+}
+
+.jessica {
+  background-color: red;
+  height: 275px;
+  width: 275px;
+  top: 23%;
+  left: 10%;
+  position: fixed;
+  text-align: center;
+}
+
+.deborah {
+  background-color: purple;
+  height: 275px;
+  width: 275px;
+  top: 23%;
+  left: 50%;
+  position: fixed;
+  text-align: center;
+
+}
+
+.jayla {
+  background-color: yellow;
+  height: 275px;
+  width: 275px;
+  top: 63%;
+  left: 30%;
+  position: fixed;
+  text-align: center;
+}
+
+.pooja {
+  background-color: green;
+  height: 275px;
+  width: 275px;
+  top: 63%;
+  left: 10%;
+  position: fixed;
+  text-align: center;
+
+}
+
+.kyndall {
+  background-color: blue;
+  height: 275px;
+  width: 275px;
+  top: 63%;
+  left: 50%;
+  position: fixed;
+  text-align: center;
+}
+
+@keyframes sonic
+ {
+   0% {
+     left: -20%;
+   }
+   100% {
+     left: 100%;
+     }
+}
+@keyframes ian {
+  0% {
+    background-color: black;
+  }
+  100% {
+    background-color: pink;
+    }
+}
