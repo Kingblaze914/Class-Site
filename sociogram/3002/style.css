@@ -47,11 +47,20 @@ p {
   background-color: purple;
   height: 275px;
   width: 275px;
-  top: 43%;
+  top: 23%;
   left: 70%;
   position: fixed;
   text-align: center;
+}
 
+.aidan {
+  background-color: green;
+  height: 275px;
+  width: 275px;
+  top: 63%;
+  left: 70%;
+  position: fixed;
+  text-align: center;
 }
 
 .nathan {
@@ -65,7 +74,7 @@ p {
 }
 
 .beshoy {
-  background-color: Grey;
+  background-color: cyan;
   height: 275px;
   width: 275px;
   top: 23%;
@@ -75,7 +84,7 @@ p {
 }
 
 .elijah {
-  background-color: Grey;
+  background-color: orange;
   height: 275px;
   width: 275px;
   top: 23%;
@@ -107,7 +116,7 @@ p {
 }
 
 .prince {
-  background-color: Grey;
+  background-color: yellow;
   height: 275px;
   width: 275px;
   top: 63%;

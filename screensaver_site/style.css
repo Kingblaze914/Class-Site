@@ -3,179 +3,205 @@
 }
 
 body {
-  background: rgb(255, 198, 158);
+  background: black;
 }
 
 img {
-  max-width: 100%;
+  max-width: 200%;
+}
+
+.tree0 {
+  left:-300px;
+  top: -25%;
+  position: absolute;
+  z-index: 2;
+  transform: rotateX(180deg);
+}
+
+.tree1 {
+  left:0px;
+  top: -40%;
+  position: absolute;
+  z-index: 2;
+  transform: rotateX(180deg);
+}
+
+.tree2 {
+  left:550px;
+  top: -30%;
+  position: absolute;
+  z-index: 2;
+  transform: rotateX(180deg);
+  transform: rotateZ(180deg);
+}
+
+.tree3 {
+  left:1000px;
+  top: -20%;
+  position: absolute;
+  z-index: 2;
+  transform: rotateX(180deg)
 }
 
 .box {
-  width: 200px;
-  height: 200px;
-  background: rgb(67, 145, 179);
-  top: -26%;
+  width: 50px;
+  height: 560px;
+  background: darkblue;
+  top: 20%;
   left: 0%;
   position: fixed;
-  animation: drop 2s infinite alternate ease-in-out;
+  border-radius: 20px;
+  animation: slide 2s ease-in-out infinite alternate;
 }
 
 .box2 {
-  width: 200px;
-  height: 200px;
-  background: rgb(71, 179, 67);
-  top: -26%;
-  left:13%;
+  width: 50px;
+  height: 600px;
+  background: darkblue;
+  top: 15%;
+  left: 10%;
   position: fixed;
-  animation: drop 2s 0.2s infinite alternate ease-in-out;
+  border-radius: 30px;
+  animation: slide 2s ease-in-out infinite alternate;
 }
 
 .box3 {
-  width: 200px;
-  height: 200px;
-  background: rgb(224, 36, 167);
-  top: -26%;
-  left:26%;
+  width: 50px;
+  height: 560px;
+  background: darkblue;
+  top: 20%;
+  left: 20%;
   position: fixed;
-  animation: drop 2s 0.4s infinite alternate ease-in-out;
+  border-radius: 20px;
+  animation: slide 2s ease-in-out infinite alternate;
 }
 
 .box4 {
-  width: 200px;
-  height: 200px;
-  background: rgb(46, 237, 230);
-  top: -26%;
-  left:39%;
+  width: 50px;
+  height: 600px;
+  background: darkblue;
+  top: 15%;
+  left: 30%;
   position: fixed;
-  animation: drop 2s 0.6s infinite alternate ease-in-out;
+  border-radius: 30px;
+  animation: slide 2s ease-in-out infinite alternate;
 }
 
 .box5 {
-  width: 200px;
-  height: 200px;
-  background: rgb(207, 117, 54);
-  top: -26%;
-  left:52%;
+  width: 50px;
+  height: 560px;
+  background: darkblue;
+  top: 20%;
+  left: 40%;
   position: fixed;
-  animation: drop 2s 0.8s infinite alternate ease-in-out;
+  border-radius: 30px;
+  animation: slide 2s ease-in-out infinite alternate;
 }
 
 .box6 {
-  width: 200px;
-  height: 200px;
-  background: rgb(179, 207, 54);
-  top: -26%;
-  left:65%;
+  width: 50px;
+  height: 600px;
+  background: darkblue;
+  top: 15%;
+  left: 50%;
   position: fixed;
-  animation: drop 2s 1s infinite alternate ease-in-out;
+  border-radius: 30px;
+  animation: slide 2s ease-in-out infinite alternate;
 }
 
 .box7 {
-  width: 200px;
-  height: 200px;
-  background: rgb(54, 207, 130);
-  top: -26%;
-  left:78%;
+  width: 50px;
+  height: 560px;
+  background: darkblue;
+  top: 20%;
+  left: 60%;
   position: fixed;
-  animation: drop 2s 1.2s infinite alternate ease-in-out;
+  border-radius: 30px;
+  animation: slide 2s ease-in-out infinite alternate;
 }
 
 .box8 {
-  width: 200px;
-  height: 200px;
-  background: rgb(54, 74, 207);
-  top: -26%;
-  left: 91%;
+  width: 50px;
+  height: 600px;
+  background: darkblue;
+  top: 15%;
+  left: 70%;
   position: fixed;
-  animation: drop 2s 1.4s infinite alternate forwards ease-in-out;
+  border-radius: 30px;
+  animation: slide 2s ease-in-out infinite alternate;
 }
 
-.boxb {
-  width: 200px;
-  height: 200px;
-  background: rgb(67, 145, 179);
-  top: -26%;
-  left:0%;
+.box9 {
+  width: 50px;
+  height: 560px;
+  background: darkblue;
+  top: 20%;
+  left: 80%;
   position: fixed;
-  animation: drop 2s infinite alternate-reverse ease-in-out;
+  border-radius: 30px;
+  animation: slide 2s ease-in-out infinite alternate;
 }
 
-.box2b {
-  width: 200px;
-  height: 200px;
-  background: rgb(71, 179, 67);
-  top: -26%;
-  left:13%;
+.box10 {
+  width: 50px;
+  height: 600px;
+  background: darkblue;
+  top: 15%;
+  left: 90%;
   position: fixed;
-  animation: drop 2s 0.2s infinite alternate-reverse ease-in-out;
+  border-radius: 30px;
+  animation: slide 2s ease-in-out infinite alternate;
 }
 
-.box3b {
-  width: 200px;
-  height: 200px;
-  background: rgb(224, 36, 167);
-  top: -26%;
-  left:26%;
+.box11 {
+  width: 50px;
+  height: 560px;
+  background: darkblue;
+  top: 20%;
+  left: 100%;
   position: fixed;
-  animation: drop 2s 0.4s infinite alternate-reverse ease-in-out;
+  border-radius: 30px;
+  animation: slide 2s ease-in-out infinite alternate;
 }
 
-.box4b {
-  width: 200px;
-  height: 200px;
-  background: rgb(46, 237, 230);
-  top: -26%;
-  left:39%;
+.box12 {
+  width: 50px;
+  height: 600px;
+  background: darkblue;
+  top: 15%;
+  left: 110%;
   position: fixed;
-  animation: drop 2s 0.6s infinite alternate-reverse ease-in-out;
+  border-radius: 30px;
+  animation: slide 2s ease-in-out infinite alternate;
+  animation: sunset 5s ease infinite alternate
 }
 
-.box5b {
-  width: 200px;
-  height: 200px;
-  background: rgb(207, 117, 54);
-  top: -26%;
-  left:52%;
-  position: fixed;
-  animation: drop 2s 0.8s infinite alternate-reverse ease-in-out;
-}
-
-.box6b {
-  width: 200px;
-  height: 200px;
-  background: rgb(179, 207, 54);
-  top: -26%;
-  left:65%;
-  position: fixed;
-  animation: drop 2s 1s infinite alternate-reverse ease-in-out;
-}
-
-.box7b {
-  width: 200px;
-  height: 200px;
-  background: rgb(54, 207, 130);
-  top: -26%;
-  left:78%;
-  position: fixed;
-  animation: drop 2s 1.2s infinite alternate-reverse ease-in-out;
-}
-
-.box8b {
-  width: 200px;
-  height: 200px;
-  background: rgb(54, 74, 207);
-  top: -26%;
-  left: 91%;
-  position: fixed;
-  animation: drop 2s 1.4s infinite alternate-reverse forwards ease-in-out;
-}
-@keyframes drop {
+@keyframes sunset {
   0% {
-    top: -26%;
-    transform : scale(1);
+    background: lightblue;
+  }
+  25% {
+    background: orange;
+  }
+  50% {
+    background: rgb(254, 89, 211);
+  }
+  75% {
+    background: purple;
   }
   100% {
-    top: 100%;
-    transform: scale(1);
+    background: darkblue
+  }
+}
+
+@keyframes slide {
+  0% {
+    background: lightblue;
+    transform: translateX(100px);
+
+  }
+  100% {
+    background: darkblue
+    transform: translateX(-1000px);
   }
 }
