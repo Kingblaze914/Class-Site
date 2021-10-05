@@ -17,7 +17,7 @@ a {
   background-color: black;
 }
 ul {
-  text-align: center;
+  text-align: right;
 }
 p {
 
@@ -32,6 +32,9 @@ p {
 .list {
   font-family: sans-serif;
   background: rgba(0, 0, 0, 5);
-  border: 5px dashed red;
-  padding: 3px
+  border: 2px dashed red;
+  padding: 1px;
+}
+
+.brandt {
 }
