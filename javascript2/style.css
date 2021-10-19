@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: green;
+  margin: 8px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.sidebar {
+  background: rgb(118, 210, 6);
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100vh;
+  padding: 1rem;
+  transition: right .5s;
+}
+
+.active {
+  right: 0px;
+}
+
+.marquee {
+  background: rgb(118, 210, 6);
+  width: 100%;
+  /* the plugin works for responsive layouts so width is not necessary */
+  /* position: fixed;
+  bottom: 0;
+  left: 0; */
+  overflow: hidden;
+  border: 1px solid #000;
+  font-family: monospace;
+  font-size: 3rem;
+}

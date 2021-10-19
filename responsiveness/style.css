@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: rgb(51, 238, 147);
+  font-size: 30px;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  background: rgb(80, 67, 240);
+  max-width: 800px;
+  font-size: 1rem;
+  padding: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.item {
+  background: rgb(255, 161, 221);
+  width: 200px;
+  height: 200px;
+}
+
+.object {
+  background: rgb(231, 232, 53);
+  width: 50vw;
+  height: 50vh;
+}
+
+@media screen and (max-width:800px){
+  html {
+  background: red;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  html {
+    background: purple;
+  }
+}

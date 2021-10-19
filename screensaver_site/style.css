@@ -28,9 +28,8 @@ img {
   /* transform: rotateY(180deg); */
 }
 
-
 .tree0 {
-  left:-300px;
+  left: -300px;
   top: -35%;
   position: fixed;
   z-index: 2;
@@ -38,7 +37,7 @@ img {
 }
 
 .tree1 {
-  left:0px;
+  left: 0px;
   top: -50%;
   position: fixed;
   z-index: 2;
@@ -46,7 +45,7 @@ img {
 }
 
 .tree2 {
-  left:550px;
+  left: 550px;
   top: -40%;
   position: fixed;
   z-index: 2;
@@ -55,7 +54,7 @@ img {
 }
 
 .tree3 {
-  left:1000px;
+  left: 1000px;
   top: -30%;
   position: fixed;
   z-index: 2;
@@ -195,16 +194,14 @@ img {
   animation: sunset 5s ease infinite alternate
 }
 
-
-
 @keyframes slide {
   0% {
     background: orange;
     transform: translateX(100px);
   }
+
   100% {
-    background: darkblue
-    transform: translateX(-1000px);
+    background: darkblue transform: translateX(-1000px);
   }
 }
 

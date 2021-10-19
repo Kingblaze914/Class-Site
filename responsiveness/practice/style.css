@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: rgb(77, 126, 38);
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item {
+  background: rgb(227, 183, 62);
+  width: 200px;
+  height: 200px;
+}
+
+
+@media screen and (max-width:600px) {
+  html {
+    background: rgb(163, 111, 195);
+  }
+  .container {
+    flex-direction: column;
+  }
+  .item {
+    background: rgb(94, 232, 224);
+    width: 100%;
+  }
+}

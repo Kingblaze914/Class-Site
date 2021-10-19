@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: green;
+  margin: 8px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.draggable {
+  background: rgb(187, 52, 49);
+  width: 60px;
+  height: 60px;
+  cursor: grab;
+}
