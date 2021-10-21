@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+ background-image: url(beach.jpg);
+ background-size: cover;
+  margin: 8px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  position: fixed;
+  top: 100px;
+  left: 300px;
+}
+
+img {
+  width: 300px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: fantasy;
+}
+a:hover {
+  color: rgb(38, 142, 67)
+}
+.grass1 {
+  position: fixed;
+  top: 500px;
+  left: 0px;
+}
+
+.grass2 {
+  position: fixed;
+  top: 500px;
+  left: 200px;
+}
+.grass3 {
+  position: fixed;
+  top: 500px;
+  left: 300px;
+}
+
+.grass4 {
+  position: fixed;
+  top: 500px;
+  left: 550px;
+}
+
+.grass5 {
+  position: fixed;
+  top: 500px;
+  left: 650px;
+}
+
+.grass6 {
+  position: fixed;
+  top: 500px;
+  left: 870px;
+}
+
+.grass7 {
+  position: fixed;
+  top: 500px;
+  left: 1100px;
+}
+
+.grass8 {
+  position: fixed;
+  top: 500px;
+  left: 1200px;
+}
+
+.marquee {
+  position: fixed;
+  top: 150px;
+  left: 300px;
+  width: 500px;
+  overflow: hidden;
+  border:5px solid white;
+  font-size: 3rem;
+  font-family: fantasy;
+  color: rgb(38, 142, 67)
+}
+
+.tab {
+  background: rgb(46, 208, 92);
+  width: 50px;
+  position: fixed;
+  top: 295px;
+  left: 950px;
+  border: 5px solid rgba(199, 127, 230, 0.82);
+  border-radius: 15%;
+  text-align: center;
+}
+
+.tab:hover {
+  background: rgba(6, 210, 176, 0.5);
+  border: 5px solid white;
+}
+.sidebar {
+  background: rgba(6, 210, 176, 0.5);
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100vh;
+  border: 5px solid white;
+  padding: 1rem;
+  transition: right .8s;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.active {
+  right: 0px;
+}
+
+.entertainment {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  background: rgba(199, 127, 230, 0.82);
+
+}
+
+.pic {
+  width: 100px;
+}
+
+.youtube {
+  display: flex;
+  flex-direction: row;
+  /* background: rgb(34, 10, 173); */
+  margin:8px;
+}
+
+.netflix {
+  display: flex;
+  flex-direction: column;
+  /* background: red; */
+  margin:8px;
+}
+
+.twitch {
+  display: flex;
+  flex-direction: column;
+  /* background: yellow; */
+  margin:8px;
+}
+
+.hulu {
+  display: flex;
+  flex-direction: column;
+  /* background: green; */
+  margin:8px;
+}
+
+.music {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  background: rgb(46, 208, 92);
+}
+
+.soundcloud {
+/* background: red; */
+margin:8px;
+}
+
+.spotify {
+/* background: red; */
+margin:8px;
+}
+
+.school {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    background: rgba(199, 127, 230, 0.82)
+}
+
+.email {
+/* background: red; */
+margin:8px;
+}
+
+.drive {
+/* background: red; */
+margin:8px;
+}
+
+.ra {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  background: rgb(46, 208, 92);
+  text-align: center;
+}
+
+.erez {
+background: rgba(199, 127, 230, 0.82);
+margin:8px;
+}
+.erez:hover {
+  background: rgb(249, 222, 107)
+}
+
+.star {
+background: rgba(199, 127, 230, 0.82);
+margin:8px;
+}
+
+.star:hover {
+  background: rgb(249, 222, 107)
+}
+
+.max {
+background: rgba(199, 127, 230, 0.82);
+margin:8px;
+}
+
+.max:hover {
+  background: rgb(249, 222, 107)
+}
+
+.fss {
+background: rgba(199, 127, 230, 0.82);
+margin:8px;
+}
+
+.fss:hover {
+  background: rgb(249, 222, 107)
+}
+
+.otm {
+background: rgba(199, 127, 230, 0.82);
+margin:8px;
+}
+
+.otm:hover {
+  background: rgb(249, 222, 107)
+}
+
+.ros {
+background: rgba(199, 127, 230, 0.82);
+margin:8px;
+}
+
+.ros:hover {
+  background: rgb(249, 222, 107)
+}
+
+.sites {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  top: 350px;
+  left: 300px;
+  gap: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.class {
+  background: rgba(199, 127, 230, 0.82);
+}
+.class:hover {
+  background: rgb(249, 222, 107)
+}
+.class2 {
+  background: rgba(199, 127, 230, 0.82);
+}
+.class2:hover {
+  background: rgb(249, 222, 107)
+}
+
+form {
+  background-color: rgb(46, 215, 105);
+  position: fixed;
+  top: 300px;
+  left: 300px;
+  width: 600px;
+  height: 44px;
+  border-radius: 5px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+
+input {
+  all: unset;
+  font: 16px system-ui;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+svg {
+  color: white;
+  fill: currentColor;
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}

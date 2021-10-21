@@ -9,6 +9,10 @@ body {
   background-image: url("img/arcade_carpet_pattern_by_glimmeringclaymore_denmtxa-pre.png");
 }
 
+img {
+  max-width: 100%;
+}
+
 p {
   font-size: 20px;
     color: Red;
@@ -25,9 +29,28 @@ a:hover {
 }
 
 .arcade {
-  position: absolute;
-  width: 45% ;
+  position: fixed;
+  top: 10%;
+  left: 30%;
+  width: 550px;
   display: block;
   border: 4px dashed white;
-  margin-left: 400px;
+}
+
+@media screen and (max-width:800px){
+  html {
+  /* background: red; */
+  }
+
+  .arcade {
+    position: fixed;
+    top: 30%;
+    left: 5%;
+    width:90%;
+  }
+
+
+  .item {
+    width: 100%;
+  }
 }

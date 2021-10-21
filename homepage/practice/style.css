@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background:green;
+  margin: 8px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.accordion {
+  background: rgb(73, 168, 208);
+  border: 5px solid black;
+}
+
+}
+.head {
+  background: red;
+  border-top: 5px solid black;
+}

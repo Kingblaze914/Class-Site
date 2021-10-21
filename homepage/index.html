@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HomePage</title>
+  </head>
+  <body>
+    <button class="tab" onclick="toggle()"></button>
+    <div class="background">
+      <div class="grass1"><img src="img\grass.gif" alt=""></div>
+      <div class="grass2"><img src="img\grass.gif" alt=""></div>
+      </div>
+      <div class="grass3"><img src="img\grass.gif" alt=""></div>
+      <div class="grass4"><img src="img\grass.gif" alt=""></div>
+      <div class="grass5"><img src="img\grass.gif" alt=""></div>
+      <div class="grass6"><img src="img\grass.gif" alt=""></div>
+      <div class="grass7"><img src="img\grass.gif" alt=""></div>
+      <div class="grass8"><img src="img\grass.gif" alt=""></div>
+    <div class='marquee'>Jaycen's Homepage (^_^)</div>
+    <form role="search" id="form">
+      <input type="search" id="query" name="q"
+       placeholder="Search..."
+       aria-label="Search through site content">
+      <button><svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg></button>
+    </form>
+    <div id="box" class="sidebar">
+      <div class="entertainment">
+        <div class="youtube">
+          <a href="https://www.youtube.com/"> <img class="pic" src="youtube.png" alt=""> </a> </div>
+        <div class="netflix">
+          <a href="https://www.netflix.com/browse"> <img class="pic" src="netflix.png" alt=""> </a> </div>
+        <div class="twitch">
+          <a href="https://www.twitch.tv/"> <img class="pic" src="twitch.png" alt=""> </a>
+        </div>
+        <div class="hulu">
+          <a href="https://www.hulu.com/"> <img class="pic" src="hulu.png" alt=""> </a>
+        </div>
+      </div>
+      <div class="music">
+        <div class="soundcloud">
+          <a href="https://soundcloud.com/stream"> <img class="pic" src="soundcloud.png" alt=""> </a>
+        </div>
+        <div class="spotify">
+          <a href="https://open.spotify.com/"> <img class="pic" src="spotify.png" alt=""> </a>
+        </div>
+      </div>
+      <div class="school">
+        <div class="email">
+          <a href="https://mail.google.com/mail/u/2/?ogbl#inbox"> <img class="pic" src="gmail.png" alt=""> </a>
+        </div>
+        <div class="drive">
+          <a href="https://drive.google.com/drive/u/2/my-drive"> <img class="pic" src="drive.png" alt=""> </a>
+        </div>
+      </div>
+
+      <div class="ra">
+        <a href="https://vcu.erezlife.com/"><div class="erez">
+          EREZLIFE
+        </div></a>
+        <a href="https://www.starrez.housing.vcu.edu/StarRezPortalStaff/Default.aspx?Params=L9ezxPcQnQuRGKTzF%2b4sxeNblvAA%2b26c"><div class="star">
+          STARREZ
+        </div></a>
+        <a href="https://cm.maxient.com/reportingform.php?VirginiaCommonwealthUniv&layout_id=1"><div class="max">
+          MAXIENT INCIDENT FORM
+        </div></a>
+        <a href="https://fss.vcu.edu/SelfService/NewCustomerRequest.aspx"><div class="fss">
+          FACILITIES SELF SERVICE
+        </div></a>
+        <a href="https://otms.nrhh.org/"><div class="otm">
+        OTM
+        </div></a>
+        <a href="https://docs.google.com/spreadsheets/d/1LP9ttToQmcLjXvJ5gktuf_SzH6Qs8vk3/edit#gid=898269100"><div class="ros">
+          BRANDT 3RD FLOOR
+        </div></a>
+      </div>
+    </div>
+    <div class="sites">
+    <a href="https://handmade-web.net/fall21/index.html"> <div class="class">Handmade Web Class Site</div></a>
+      <a href="https://kingblaze914.github.io/Class-site/"><div class="class2">Jaycen's Class Site</div></a>
+    </div>
+    <script>
+    function toggle() {
+      var element = document.getElementById("box");
+      element.classList.toggle("active");
+    }
+    </script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="jquery.marquee.min.js"></script>
+    <script src="functions.js"></script>
+  </body>
+</html>

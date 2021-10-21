@@ -55,6 +55,23 @@ p {}
   opacity: 10%;
 }
 
+@media screen and (max-width:800px){
+  html {
+  /* background: red; */
+  }
+
+  .list {
+    flex-direction: column;
+    position: fixed;
+    top: 250px;
+    margin-left: auto;
+  }
+
+  .item {
+    width: 100%;
+  }
+}
+
 .box {
   width: 200px;
   height: 200px;
