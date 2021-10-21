@@ -92,7 +92,7 @@ a:hover {
 }
 
 .tab {
-  background: rgb(46, 208, 92);
+  background-color: rgb(46, 208, 92);
   width: 50px;
   position: fixed;
   top: 295px;
@@ -100,6 +100,7 @@ a:hover {
   border: 5px solid rgba(199, 127, 230, 0.82);
   border-radius: 15%;
   text-align: center;
+  animation: color2 15s infinite alternate linear;
 }
 
 .tab:hover {
@@ -295,6 +296,7 @@ form {
   display:flex;
   flex-direction:row;
   align-items:center;
+  animation: color2 15s infinite alternate linear;
 }
 
 input {
@@ -340,5 +342,16 @@ button {
   }
   100% {
     color: rgb(196, 92, 34)
+    }
+}
+
+@keyframes color2 {
+  0% {
+    background-color: rgb(46, 215, 105);
+    border: 5px solid rgba(199, 127, 230, 0.82);
+  }
+  100% {
+    background-color: rgb(235, 92, 26);
+    border: 5px solid rgb(213, 32, 32);
     }
 }
