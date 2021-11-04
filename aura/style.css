@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  cursor: wait;
+}
+
+body {
+  height: 3500px;
+  background: black;
+  background-size: cover;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  color: grey;
+  font-size: 25
+}
+
+p {
+  color: #131313;
+  font-size: 40px;
+}
+
+.cursed {
+  position: absolute;
+  top: -20px;
+  z-index: 1;
+}
+
+.normal {
+  background: none;
+  position: absolute;
+  top: 10%;
+  left: 05%;
+  font-family: monospace;
+  z-index: 2;
+}
+
+.normal {
+  background: none;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  font-family: monospace;
+  z-index: 2;
+}
+
+.square-wrapper {
+  position: sticky;
+  top: 900px;
+  left: 43%;
+  width: 200px;
+  height: 1400px;
+  background: none;
+  z-index: 2;
+}
+
+.square {
+  position: sticky;
+  top: 43%;
+  left: 48%;
+  color: grey;
+  width: 50px;
+  height: 50px;
+  filter: brightness(70%);
+  opacity: 70%;
+}
+
+.stairs {
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+}
+
+.eyes {
+  position: fixed;
+  z-index: 0;
+}
+
+.eye1 {
+  position: fixed;
+  width: 50%;
+  top: 50%;
+  left: 60%;
+  animation: eyes 2s 2s linear forwards;
+  opacity: 0%;
+}
+
+.eye2 {
+  position: fixed;
+  width: 50%;
+  top: 1%;
+  left: -10%;
+  animation: eyes 2s 6.3s linear forwards;
+  opacity: 0%;
+}
+
+.eye3 {
+  position: fixed;
+  width: 30%;
+  top: 1%;
+  left: 60%;
+  animation: eyes 2s 10.6s linear forwards;
+  opacity: 0%;
+}
+
+.eye4 {
+  position: fixed;
+  width: 30%;
+  top: 50%;
+  left: 20%;
+  animation: eyes 2s 12.5s linear forwards;
+  opacity: 0%;
+}
+
+@keyframes wipe-enter {
+  0% {
+    transform: scale(100%);
+  }
+
+  99% {}
+
+  100% {
+    transform: scale(1500%);
+  }
+}
+
+@keyframes eyes {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 75%;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .square-animation {
+    animation-name: wipe-enter;
+    animation-duration: 60s;
+    animation-delay: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #494949;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #131313;
+}

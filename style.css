@@ -14,6 +14,11 @@ a {
   text-decoration: none;
   font-size: 30px;
 }
+div {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
 
 p {}
 
@@ -47,12 +52,37 @@ p {}
   background: yellow;
   border: 3px dashed red;
   transform: translateX(20px);
+  cursor: pointer;
 }
 
 .screensaver {
   position: fixed;
   z-index: 1;
   opacity: 10%;
+}
+
+#dialog {
+  font-family: sans-serif;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 5px;
+  margin-top: 5px;
+
+}
+
+.read {
+  background: red;
+  border: 3px dashed yellow;
+  z-index: 2;
+}
+
+.read:hover {
+  background: yellow;
+  border: 3px dashed red;
+  transform: translateX(20px);
+  cursor: pointer;
 }
 
 @media screen and (max-width:800px){
