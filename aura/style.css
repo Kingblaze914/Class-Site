@@ -15,6 +15,10 @@ img {
   max-width: 100%;
 }
 
+audio {
+  z-index: 3;
+}
+
 h1 {
   color: white;
   font-size: 50px;
@@ -173,4 +177,35 @@ p {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #131313;
+}
+
+@media screen and (max-width:800px){
+  body {
+    height: 3000px;
+    background: black;
+    background-size: cover;
+    margin: 0;
+  }
+  img {
+    max-width: 100%;
+  }
+
+  .normal {
+    background: none;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    font-family: monospace;
+    z-index: 2;
+  }
+
+  .square-wrapper {
+    position: sticky;
+    top: 1900px;
+    left: 43%;
+    width: 200px;
+    height: 1400px;
+    background: none;
+    z-index: 2;
+  }
 }
