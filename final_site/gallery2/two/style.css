@@ -93,3 +93,31 @@ span:hover + .back3 {
   width: 900px;
   height: 500px;
 }
+
+.pubby1 {
+  position: absolute;
+  background: black;
+  top: 750px;
+  left: 50px;
+  width: 900px;
+  height: 500px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #494949;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
