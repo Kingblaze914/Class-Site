@@ -14,6 +14,7 @@ a {
   text-decoration: none;
   font-size: 30px;
 }
+
 div {
   color: white;
   text-decoration: none;
@@ -69,7 +70,6 @@ p {}
   gap: 5px;
   margin: 5px;
   margin-top: 5px;
-
 }
 
 .read {
@@ -85,9 +85,9 @@ p {}
   cursor: pointer;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:800px) {
   html {
-  /* background: red; */
+    /* background: red; */
   }
 
   .list {

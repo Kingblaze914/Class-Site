@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background:black;
+  margin: 8px;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 50px;
+  color: red;
+}
+
+.back {
+  position: fixed;
+  width:10%;
+  top: 0%;
+  left: 0%;
+}
+
+.back2 {
+  position: fixed;
+  background-color: white;
+  width: 95px;
+  height: 55px;
+  top: 25px;
+  left: -5px;
+  transform: rotate(-45deg);
+  opacity: 0%;
+}
+
+.title {
+  position: fixed;
+  background: white;
+  top: 30px;
+  left: 980px;
+  width: 520px;
+  height: 150px;
+}
+
+.text {
+  position: fixed;
+  background: white;
+  top: 200px;
+  left: 980px;
+  width: 520px;
+  height: 500px;
+}
+
+.pubby {
+  position: absolute;
+  background: white;
+  top: 150px;
+  left: 50px;
+  width: 900px;
+  height: 500px;
+}

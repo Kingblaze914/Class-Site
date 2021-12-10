@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  margin: 8px;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 50px;
+  color: red;
+}
+
+span {
+  position: fixed;
+  background-color: white;
+  width: 4.7%;
+  height: 5.9%;
+  top: 3.1%;
+  left: .8%;
+  transform: rotate(-45deg);
+  opacity: 100%;
+  opacity: 0%;
+}
+span:hover + .back3 {
+  opacity: 100%;
+}
+
+
+span1 {
+  position: absolute;
+  background: white;
+  width: 160px;
+  height: 130px;
+  top: 260px;
+  left: 568px;
+  transform: rotate(-15deg);
+  z-index: 2;
+  opacity: 0%;
+}
+span1:hover + .one2 {
+  opacity: 100%
+}
+
+span2 {
+  position: fixed;
+  background: white;
+  width: 202px;
+  height: 150px;
+  top:30%;
+  left: 49.3%;
+  transform: rotate(13deg);
+  opacity: 0%;
+}
+span2:hover + .two2 {
+  opacity: 100%
+}
+
+span3 {
+  position: absolute;
+  background: white;
+  width: 182px;
+  height: 140px;
+  top: 430px;
+  left: 450px;
+  opacity: 0%;
+}
+span3:hover + .three2 {
+  opacity: 100%
+}
+
+span4 {
+  position: fixed;
+  background: white;
+  width: 299px;
+  height: 233px;
+  top: 58%;
+  left: 22%;
+  transform: rotate(0deg);
+  opacity: 0%;
+}
+span4:hover + .four2 {
+  opacity: 100%
+}
+
+span5 {
+  position: absolute;
+  background: white;
+  width: 255px;
+  height: 195px;
+  top: 681px;
+  left: 815px;
+  opacity: 0%;
+}
+span5:hover + .five2 {
+  opacity: 100%
+}
+
+.back {
+  position: fixed;
+  width:10%;
+  top: 0%;
+  left: 0%;
+}
+
+.back2 {
+  position: fixed;
+  background-color: white;
+  width: 4.7%;
+  height: 5.9%;
+  top: 3.1%;
+  left: .8%;
+  transform: rotate(-45deg);
+  opacity: 0%;
+}
+.back3 {
+  position: fixed;
+  background-color: ;
+  width: 4.7%;
+  height: 7%;
+  top: 5%;
+  left: 5%;
+  transform: rotate(0deg);
+  opacity: 0%;
+  color: red;
+  pointer-events: none;
+}
+
+.screens {
+  position: fixed;
+  top: -27%;
+  left: 0%;
+  width: 100%;
+}
+.screens2 {
+  position: fixed;
+  top: -23%;
+  left: 0%;
+  width: 100%;
+}
+
+.one {
+  position: absolute;
+  background: white;
+  width: 149px;
+  height: 100px;
+  top: 260px;
+  left: 568px;
+  transform: rotate(-15deg);
+  opacity: 100%;
+  z-index: -2;
+}
+.two {
+  position: absolute;
+  background: white;
+  width: 202px;
+  height: 150px;
+  top:420px;
+  left:756px;
+  transform: rotate(13deg);
+  opacity: 100%;
+  z-index: -2;
+}
+.three {
+  position: absolute;
+  background: white;
+  width: 182px;
+  height: 100px;
+  top: 430px;
+  left: 450px;
+  opacity: 100%;
+  z-index: -2;
+}
+.four {
+  position: absolute;
+  background: white;
+  width: 300px;
+  height: 233px;
+  top: 625px;
+  left: 336px;
+  transform: rotate(0deg);
+  opacity: 100%;
+  z-index: -2;
+}
+.five {
+  position: absolute;
+  background: white;
+  width: 252px;
+  height: 09px;
+  top: 661px;
+  left: 812px;
+  opacity: 100%;
+  z-index: -2;
+}
+
+.one2 {
+  position: absolute;
+  background: ;
+  width: 160px;
+  height: 130px;
+  top: 260px;
+  left: 380px;
+  transform: rotate(0);
+  opacity: 0%;
+  color: red;
+  pointer-events: none;
+}
+.two2 {
+  position: fixed;
+  background: ;
+  width: 202px;
+  height: 150px;
+  top:20%;
+  left: 70%;
+  transform: rotate(0deg);
+  opacity: 0%;
+  color: red;
+  pointer-events: none;
+}
+.three2 {
+  position: absolute;
+  background: ;
+  width: 182px;
+  height: 140px;
+  top: 450px;
+  left: 290px;
+  opacity: 0%;
+  color: red;
+  pointer-events: none;
+}
+.four2 {
+  position: fixed;
+  background: ;
+  width: 250px;
+  height: 100px;
+  top: 74%;
+  left: 6%;
+  transform: rotate(0deg);
+  opacity: 0%;
+  color: red;
+  pointer-events: none;
+}
+.five2 {
+  position: absolute;
+  background: ;
+  width: 255px;
+  height: 195px;
+  top: 681px;
+  left: 1195px;
+  opacity: 0%;
+  color: red;
+  pointer-events: none;
+}

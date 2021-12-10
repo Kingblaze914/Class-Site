@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background:black;
+  margin: 8px;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 50px;
+  color: red;
+}
+h1 {
+  font-size: 28px;
+  color: red;
+}
+
+.title {
+  position: fixed;
+  background: black;
+  width: 700px;
+  top: 100px;
+  left: 400px;
+}
+
+.back {
+  position: fixed;
+  width:10%;
+  top: 0%;
+  left: 0%;
+}
+
+.back2 {
+  position: fixed;
+  background-color: white;
+  width: 40px;
+  top: 2%;
+  left: 1%;
+  transform: rotate(-45deg);
+  opacity: 0%;
+}
+
+.back3 {
+  position: fixed;
+  background-color: white;
+  width: 95px;
+  height: 55px;
+  top: 25px;
+  left: -5px;
+  transform: rotate(-45deg);
+  opacity: 0%;
+}
+
+.main {
+  position: fixed;
+  width: 1200px;
+  top:-100px;
+  right: 0%;
+}
+
+.menu1 {
+  position: fixed;
+  top: 183px;
+  width: 300PX;
+  z-index: 0;
+}
+
+.feature {
+  position: fixed;
+  top: 195px;
+  width: 490px;
+  height: 120px;
+  /* background: white; */
+  text-align: right;
+  opacity: 0%;
+}
+.feature:hover {
+  opacity: 100%;
+}
+
+.recent {
+  position: fixed;
+  top: 347px;
+  width: 490px;
+  height: 155px;
+  /* background: white; */
+  text-align: right;
+  opacity: 0%;
+}
+.recent:hover {
+  opacity: 100%;
+}
+
+.archive {
+  position: fixed;
+  top: 565px;
+  width: 450px;
+  height: 152px;
+  /* background: white; */
+  text-align: right;
+  opacity: 0%;
+}
+.archive:hover {
+  opacity: 100%;
+}
+span1 {
+  position: fixed;
+  top: 325px;
+  left: 1140px;
+  width: 240px;
+  height: 160px;
+  background: white;
+  transform: rotate(-45deg);
+  opacity: 0%;
+}
+span1:hover + .animation {
+  opacity: 100%;
+}
+
+.animation {
+  position: fixed;
+  top: 400px;
+  left: 940px;
+  width: 240px;
+  height: 160px;
+  background: ;
+  transform: rotate(0);
+  opacity: 0%;
+  color: red;
+}

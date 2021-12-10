@@ -1,0 +1,330 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  margin: 8px;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 50px;
+  color: red;
+}
+
+span {
+  position: fixed;
+  background-color: white;
+  width: 4.7%;
+  height: 5.9%;
+  top: 3.1%;
+  left: .8%;
+  transform: rotate(-45deg);
+  opacity: 100%;
+  opacity: 0%;
+}
+
+span:hover + .back3 {
+  opacity: 100%;
+}
+
+.back3 {
+  position: fixed;
+  background-color: ;
+  width: 4.7%;
+  height: 7%;
+  top: 5%;
+  left: 5%;
+  transform: rotate(0deg);
+  opacity: 0%;
+  color: red;
+  pointer-events: none;
+}
+
+.back {
+  position: fixed;
+  width:10%;
+  top: 0%;
+  left: 0%;
+}
+
+.back2 {
+  position: absolute;
+  background-color: white;
+  width: 40%;
+  height: 45%;
+  top: 10%;
+  left: 10%;
+  transform: rotate(-45deg);
+  opacity: 0%;
+}
+
+.screens {
+  position: fixed;
+  top: -23%;
+  left: 0%;
+  width: 100%;
+}
+.screens2 {
+  position: fixed;
+  top: -23%;
+  left: 0%;
+  width: 100%;
+}
+
+.one {
+  position: absolute;
+  background: white;
+  width: 166px;
+  height: 100px;
+  top: 315px;
+  left: 360px;
+  transform: rotate(-4deg);
+  z-index: -2;
+}
+.one1 {
+  position: absolute;
+  background: white;
+  width: 166px;
+  height: 100px;
+  top: 315px;
+  left: 360px;
+  opacity: 0%;
+}
+
+.two {
+  position: absolute;
+  background: white;
+  width: 186px;
+  height: 100px;
+  top: 290px;
+  left: 660px;
+  z-index: -2;
+}
+.two1 {
+  position: absolute;
+  background: white;
+  width: 186px;
+  height: 100px;
+  top: 290px;
+  left: 660px;
+  opacity: 0%;
+}
+
+.three {
+  position: absolute;
+  background: white;
+  width: 160px;
+  height: 100px;
+  top: 320px;
+  left: 970px;
+  transform: rotate(4deg);
+  z-index: -2;
+}
+.three1 {
+  position: absolute;
+  background: white;
+  width: 160px;
+  height: 100px;
+  top: 320px;
+  left: 970px;
+  transform: rotate(2deg);
+  opacity: 0%;
+}
+
+.four {
+  position: absolute;
+  background: white;
+  width: 160px;
+  height: 109px;
+  top: 37%;
+  left: 22%;
+  transform: rotate(-2deg);
+  z-index: -2;
+}
+.four1 {
+  position: absolute;
+  background: white;
+  width: 160px;
+  height: 109px;
+  top: 37%;
+  left: 22%;
+  transform: rotate(-2deg);
+  opacity: 0%;
+}
+
+.five {
+  position: absolute;
+  background: white;
+  width: 185px;
+  height: 109px;
+  top: 36%;
+  left: 41%;
+  z-index: -2;
+}
+.five1 {
+  position: absolute;
+  background: white;
+  width: 185px;
+  height: 109px;
+  top: 420px;
+  left: 630px;
+  opacity: 0%;
+}
+
+.six {
+  position: absolute;
+  background: white;
+  width: 160px;
+  height: 105px;
+  top: 38%;
+  left: 61%;
+  transform: rotate(2deg);
+  z-index: -2;
+}
+.six1 {
+  position: absolute;
+  background: white;
+  width: 160px;
+  height: 105px;
+  top: 38%;
+  left: 61%;
+  transform: rotate(2deg);
+  opacity: 0%;
+}
+
+.seven {
+  position: absolute;
+  background: white;
+  width: 180px;
+  height: 109px;
+  top: 49%;
+  left: 23%;
+  transform: rotate(2deg);
+  z-index: -3;
+}
+.seven1 {
+  position: absolute;
+  background: white;
+  width: 180px;
+  height: 109px;
+  top: 49%;
+  left: 23%;
+  transform: rotate(0deg);
+  opacity: 0%;
+}
+
+.eight {
+  position: absolute;
+  background: white;
+  width: 186px;
+  height: 115px;
+  top: 47%;
+  left: 42.5%;
+  z-index: -2;
+}
+.eight1 {
+  position: absolute;
+  background: white;
+  width: 186px;
+  height: 115px;
+  top: 47%;
+  left: 42.5%;
+  opacity: 0%;
+}
+
+.nine {
+  position: absolute;
+  background: white;
+  width: 196px;
+  height: 109px;
+  top: 49%;
+  left: 62%;
+  transform: rotate(-3deg);
+  z-index: -2;
+}
+.nine1 {
+  position: absolute;
+  background: white;
+  width: 196px;
+  height: 109px;
+  top: 49%;
+  left: 62%;
+  transform: rotate(0deg);
+  opacity: 0%;
+}
+
+.ten {
+  position: absolute;
+  background: white;
+  width: 177.2px;
+  height: 120px;
+  top: 59%;
+  left: 20.5%;
+  transform: rotate(2deg);
+  z-index: -2;
+}
+.box {
+  position: absolute;
+  background: black;
+  width: 177.2px;
+  height: 20px;
+  top: 58.8%;
+  left: 20.5%;
+  transform: rotate(2deg);
+  z-index: -1;
+}
+.ten1 {
+  position: absolute;
+  background: white;
+  width: 189px;
+  height: 120px;
+  top: 61%;
+  left: 20%;
+  transform: rotate(0deg);
+  opacity: 0%;
+}
+
+.eleven {
+  position: absolute;
+  background: white;
+  width: 200px;
+  height: 119px;
+  top: 680px;
+  left: 640px;
+  z-index: -2;
+}
+.eleven1 {
+  position: absolute;
+  background: white;
+  width: 200px;
+  height: 130px;
+  top: 60%;
+  left: 42%;
+  opacity: 0%;
+}
+
+.twelve {
+  position: absolute;
+  background: white;
+  width: 145px;
+  height: 128px;
+  top: 60%;
+  left: 68%;
+  transform: rotate(.5deg);
+  z-index: -2;
+}
+.twelve1 {
+  position: absolute;
+  background: white;
+  width: 130px;
+  height: 130px;
+  top: 60%;
+  left: 68.5%;
+  transform: rotate(-3deg);
+  opacity: 0%;
+}

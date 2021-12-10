@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background:black;
+  margin: 8px;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 50px;
+  color: red;
+}
+
+span {
+  position: fixed;
+  background-color: white;
+  width: 4.7%;
+  height: 5.9%;
+  top: 3.1%;
+  left: .8%;
+  transform: rotate(-45deg);
+  opacity: 100%;
+  opacity: 0%;
+}
+
+span:hover + .back3 {
+  opacity: 100%;
+}
+
+.back3 {
+  position: fixed;
+  background-color: ;
+  width: 4.7%;
+  height: 7%;
+  top: 5%;
+  left: 5%;
+  transform: rotate(0deg);
+  opacity: 0%;
+  color: red;
+  pointer-events: none;
+}
+
+.back {
+  position: fixed;
+  width:10%;
+  top: 0%;
+  left: 0%;
+}
+
+.back2 {
+  position: fixed;
+  background-color: white;
+  width: 95px;
+  height: 55px;
+  top: 25px;
+  left: -5px;
+  transform: rotate(-45deg);
+  opacity: 0%;
+}
+
+.title {
+  position: fixed;
+  background: black;
+  top: 50px;
+  left: 980px;
+  width: 520px;
+  height: 150px;
+}
+
+.text {
+  position: fixed;
+  background: black;
+  top: 200px;
+  left: 900px;
+  width: 600px;
+  height: 500px;
+}
+
+.pubby {
+  position: absolute;
+  background: black;
+  top: 50px;
+  left: 200px;
+  width:615px;
+  height: 615px;
+  z-index: -2;
+  border: red dashed 8px;
+}
+
+.pubby1 {
+  position: absolute;
+  background: black;
+  top: 700px;
+  left: 200px;
+  width:615px;
+  height: 615px;
+  z-index: -2;
+  border: red dashed 8px;
+}
+
+.pubby2 {
+  position: absolute;
+  background: black;
+  top: 1350px;
+  left: 200px;
+  width:615px;
+  height: 615px;
+  z-index: -2;
+  border: red dashed 8px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #494949;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}

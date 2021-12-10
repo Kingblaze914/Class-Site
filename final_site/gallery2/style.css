@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  margin: 8px;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 50px;
+  color: red;
+}
+
+span {
+  position: fixed;
+  background-color: white;
+  width: 4.7%;
+  height: 5.9%;
+  top: 3.1%;
+  left: .8%;
+  transform: rotate(-45deg);
+  opacity: 100%;
+  opacity: 0%;
+}
+span:hover + .back3 {
+  opacity: 100%;
+}
+span1 {
+  position: absolute;
+  background: white;
+  width: 259px;
+  height: 200px;
+  top: 26%;
+  left: 30%;
+  opacity: 0%;
+  z-index: 2;
+}
+span1:hover + .one2 {
+  opacity: 100%
+}
+span2 {
+  position: absolute;
+  background: white;
+  width: 196px;
+  height: 150px;
+  top: 20.5%;
+  left: 54%;
+  opacity: 0%;
+}
+span2:hover + .two2 {
+  opacity: 100%
+}
+span3 {
+  position: absolute;
+  background: white;
+  width: 176px;
+  height: 132px;
+  top: 38%;
+  left: 55%;
+  opacity: 0%;
+}
+span3:hover + .three2 {
+  opacity: 100%
+}
+span4 {
+  position: absolute;
+  background: white;
+  width: 270px;
+  height: 210px;
+  top: 54%;
+  left: 26%;
+  opacity: 0%;
+}
+span4:hover + .four2 {
+  opacity: 100%
+}
+span5 {
+  position: absolute;
+  background: white;
+  width: 265px;
+  height: 199px;
+  top: 54.5%;
+  left: 53%;
+  opacity: 0%;
+}
+span5:hover + .five2 {
+  opacity: 100%
+}
+
+.back {
+  position: fixed;
+  width:10%;
+  top: 0%;
+  left: 0%;
+}
+.back2 {
+  position: fixed;
+  background-color: white;
+  width: 95px;
+  height: 55px;
+  top: 25px;
+  left: -5px;
+  transform: rotate(-45deg);
+  opacity: 0%;
+}
+.back3 {
+  position: fixed;
+  background-color: ;
+  width: 4.7%;
+  height: 7%;
+  top: 5%;
+  left: 5%;
+  transform: rotate(0deg);
+  opacity: 0%;
+  color: red;
+  pointer-events: none;
+}
+
+.screens {
+  position: fixed;
+  top: -23%;
+  left: 0%;
+  width: 100%;
+  }
+.screens2 {
+  position: fixed;
+  top: -23%;
+  left: 0%;
+  width: 100%;
+}
+
+.one {
+  position: absolute;
+  background: white;
+  width: 259px;
+  height: 200px;
+  top: 26%;
+  left: 30%;
+  opacity: 100%;
+  z-index: -1;
+}
+.two {
+  position: absolute;
+  background: white;
+  width: 196px;
+  height: 150px;
+  top: 20.5%;
+  left: 54%;
+  opacity: 100%;
+  z-index: -1;
+}
+.three {
+  position: absolute;
+  background: white;
+  width: 176px;
+  height: 132px;
+  top: 38%;
+  left: 55%;
+  /* transform: rotate(0deg); */
+  opacity: 100%;
+  z-index: -2;
+}
+.four {
+  position: absolute;
+  background: white;
+  width: 270px;
+  height: 210px;
+  top: 54%;
+  left: 26%;
+  /* transform: rotate(0deg); */
+  opacity: 100%;
+  z-index: -2;
+}
+.five {
+  position: absolute;
+  background: white;
+  width: 265px;
+  height: 199px;
+  top: 54.5%;
+  left: 53%;
+  opacity: 100%;
+  z-index: -2;
+}
+
+.one1 {
+  position: absolute;
+  background: white;
+  width: 259px;
+  height: 200px;
+  top: 26%;
+  left: 30%;
+  opacity: 0%;
+}
+.two1 {
+  position: absolute;
+  background: white;
+  width: 196px;
+  height: 150px;
+  top: 20.5%;
+  left: 54%;
+  opacity: 0%;
+}
+.three1 {
+  position: absolute;
+  background: white;
+  width: 176px;
+  height: 132px;
+  top: 38%;
+  left: 55%;
+  /* transform: rotate(0deg); */
+  opacity: 0%;
+}
+
+.one2 {
+  position: absolute;
+  background: ;
+  width: 150px;
+  height: 100px;
+  top: 29%;
+  left: 16%;
+  opacity: 0%;
+  color: red;
+  pointer-events: none;
+}
+.two2 {
+  position: absolute;
+  background: ;
+  width: 196px;
+  height: 150px;
+  top: 25%;
+  left: 75%;
+  opacity: 0%;
+  color: red;
+  pointer-events: none;
+}
+.three2 {
+  position: absolute;
+  background: ;
+  width: 196px;
+  height: 150px;
+  top: 38%;
+  left: 73%;
+  opacity: 0%;
+  color: red;
+  pointer-events: none;
+}
+.four2 {
+  position: absolute;
+  background: ;
+  width: 270px;
+  height: 210px;
+  top: 54%;
+  left: 10%;
+  /* transform: rotate(0deg); */
+  opacity: 0%;
+  color: red;
+  pointer-events: none;
+}
+.five2 {
+  position: absolute;
+  background: ;
+  width: 265px;
+  height: 199px;
+  top: 56.5%;
+  left: 77%;
+  opacity: 0%;
+  color: red;
+  pointer-events: none;
+}
